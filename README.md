@@ -11,14 +11,15 @@ Sometimes the official base image / out of the box CLI might not be enough for y
 
 
 ## Building the image
-There are different ways to build the image:
+There are different situations to build the image:
 - manual / local machine
-- automated in model CICD platforms
-- scheduled ...
+- automated in modern CICD platforms
+- scheduled
+- ...
 
 ### Local use
 ```sh-session
-$ git clone ...
+$ git clone https://github.com/pnestvogel/sfdx-docker
 $ cd sfdx-docker
 $ docker build --pull -t "mysfdximage" .
 $ docker build --pull -t "mysfdximage" .
